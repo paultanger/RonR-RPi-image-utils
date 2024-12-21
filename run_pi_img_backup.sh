@@ -5,7 +5,7 @@ CURRENT_DATE=$(date +%Y_%m_%d)
 
 # Define the base path and the updated filename
 BASE_PATH="/mnt/pi_share/pi_backups/pi_img_backups/"
-UPDATED_FILENAME="${BASE_PATH}/${CURRENT_DATE}_pi_64bit.img"
+UPDATED_FILENAME="${BASE_PATH}/${CURRENT_DATE}_pi_64bit_backup.img"
 
 # Run the command with the updated filename
 sudo nice -n 2 /home/pi/github/RonR-RPi-image-utils/image-backup -i "$UPDATED_FILENAME"
